@@ -4,7 +4,9 @@ import AboutUs from "./components/AboutUs"
 import InfoSection from "./components/InfoSection"
 import Service from "./components/Service"
 import ActionCall from "./components/ActionCall"
+import Testimonials from "./components/Testimonials"
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -16,7 +18,9 @@ function App() {
       <InfoSection />
       <Service />
       <ActionCall />
+      <Testimonials />
       <Contact />
+      <Footer />
     </>
   )
 }
