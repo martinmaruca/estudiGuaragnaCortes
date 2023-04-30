@@ -3,6 +3,7 @@ const NavBar = () => {
   return (
     <>
     <div>
+    
         <div>
         <img src="./logo.png" alt="logo guaragna cortes asoc." />
         </div>
