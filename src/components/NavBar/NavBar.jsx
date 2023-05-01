@@ -1,3 +1,5 @@
+import { HashLink } from 'react-router-hash-link';
+import './navbar.css'
 
 const NavBar = () => {
   return (
@@ -5,11 +7,11 @@ const NavBar = () => {
         <div className="w-20 ml-10">
         <img src="./logo.png" alt="logo guaragna cortes asoc." />
         </div>
-        <nav>
+        <nav className='menu navbar'>
             <ul className="flex w-full h-20 items-center justify-center mr-10 font-roboto font-semibold text-appwhite  ">
-                <li className="mr-4">Nosotros</li>
-                <li className="mr-4">Servicios</li>
-                <li>Contacto</li>
+              <li className="mr-4"><HashLink smooth to="#aboutus">Nosotros</HashLink></li>
+              <li className="mr-4"><HashLink smooth to="#service">Servicios</HashLink></li>
+              <li><HashLink smooth to="#contact">Contacto</HashLink></li>
             </ul>
         </nav>
     </div>

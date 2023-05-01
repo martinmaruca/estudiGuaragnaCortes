@@ -3,28 +3,38 @@ import { faSuitcase, faCarBurst, faFileLines, faScaleBalanced, faChildReaching  
 
 const Service = () => {
   return (
-    <section className="w-full h-full font-montserrat bg-appwhite container mx-auto px-4 py-5">
+    <section className="w-full h-full font-montserrat bg-appwhite container mx-auto px-4 py-5" id='service'>
         <h2 className="text-4xl my-16">Nuestras áreas de práctica</h2>
         <div className="grid grid-cols-4 gap-8 grid-flow-row text-center">
-            <div className="h-60 w-60 shadow-2xl rounded-lg flex flex-col justify-center">
+            <div className="h-52 w-52 shadow-2xl rounded-lg flex flex-col justify-center transform hover:scale-125">
+                <a href="">
                 <FontAwesomeIcon icon={faSuitcase} className='text-apporange text-8xl mb-5'/>
                 <p className='font-semibold px-3'>Accidentes de trabajo  ART</p>
+                </a>
             </div>
-            <div className="h-60 w-60 shadow-2xl rounded-lg flex flex-col justify-center">
+            <div className="h-52 w-52 shadow-2xl rounded-lg flex flex-col justify-center transform hover:scale-125">
+                <a href="">
                 <FontAwesomeIcon icon={faCarBurst} className='text-apporange text-8xl mb-5'/>
                 <p className='font-semibold px-3'>Accidentes de tránsito</p>
+                </a>
             </div>
-            <div className="h-60 w-60 shadow-2xl rounded-lg flex flex-col justify-center">
+            <div className="h-52 w-52 shadow-2xl rounded-lg flex flex-col justify-center transform hover:scale-125">
+                <a href="">
                 <FontAwesomeIcon icon={faFileLines} className='text-apporange text-8xl mb-5'/>
                 <p className='font-semibold px-3'>Sucesiones</p>
+                </a>
             </div>
-            <div className="h-60 w-60 shadow-2xl rounded-lg flex flex-col justify-center">
+            <div className="h-52 w-52 shadow-2xl rounded-lg flex flex-col justify-center transform hover:scale-125">
+                <a href="">
                 <FontAwesomeIcon icon={faScaleBalanced} className='text-apporange text-8xl mb-5'/>
                 <p className='font-semibold px-3'>Derecho Laboral</p>
+                </a>
             </div>
-            <div className="h-60 w-60 shadow-2xl rounded-lg mb-16 flex flex-col justify-center">
+            <div className="h-52 w-52 shadow-2xl rounded-lg mb-16 flex flex-col justify-center transform hover:scale-125">
+                <a href="">
                 <FontAwesomeIcon icon={faChildReaching} className='text-apporange text-8xl mb-5'/>
                 <p className='font-semibold px-3'>Derecho de familia</p>
+                </a>
             </div>
         </div>
     </section>
