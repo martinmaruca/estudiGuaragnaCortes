@@ -3,10 +3,11 @@ import { faInstagram, faFacebookSquare } from '@fortawesome/free-brands-svg-icon
 
 const Footer = () => {
   return (
-    <div className=' w-full h-96 grid grid-cols-3 gap-8 grid-flow-row bg-appgray font-roboto text-appwhite p-5'>
+    <footer className=' w-full h-96 flex justify-center bg-appgray font-roboto text-appwhite p-5'>
+    <div className='w-[90%] grid grid-cols-3 gap-8 grid-flow-row'>
       <div className='flex flex-col items-center justify-center'>
         <img className="w-48 mb-10" src="./logo.png" alt="logo guaragna cortes asoc." />
-        <p className='text-xl'>Estudio Jurídico Guaragna-Cortes y Asoc.</p>
+        <p className='text-lg'>Estudio Jurídico Guaragna-Cortes y Asoc.</p>
       </div>
       <div className='w-full flex flex-col items-center justify-center'>
         <h2 className='text-xl mb-5'>Nuestras redes sociales</h2>
@@ -16,9 +17,10 @@ const Footer = () => {
         </div>
       </div>
       <div className='w-full flex flex-col items-center justify-center'>
-        <p className='text-lg'>2023 © - Desengo - Todos los derechos reservados.</p>
+        <p className='text-md'>2023 © - Desengo - Todos los derechos reservados.</p>
       </div>
     </div>
+    </footer>
   )
 }
 

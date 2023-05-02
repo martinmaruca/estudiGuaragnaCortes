@@ -1,7 +1,8 @@
 
 const AboutUs = () => {
   return (
-    <section className="w-full h-full bg-appwhite container mx-auto px-4 py-5" id="aboutus">
+    <section className="w-full h-full bg-appwhite py-5" id="aboutus">
+      <div className="w-[90%] container mx-auto px-4">
         <h2 className="font-montserrat font-bold text-3xl my-16 pb-16">Estudio Jurídico Guaragna-Cortes y Asoc.</h2>
         <p className="font-montserrat tracking-wider leading-10 text-2xl first-letter:text-9xl first-letter:font-prata first-letter:text-apporange
           first-letter:mr-3  first-letter:float-left mb-16">
@@ -11,6 +12,7 @@ const AboutUs = () => {
             Nos enorgullece ser reconocidos por nuestra ética profesional y compromiso con nuestros clientes, trabajamos con dedicación y perseverancia para alcanzar los mejores resultados posibles en cada caso que tomamos. 
             Si necesita ayuda legal en cualquier asunto civil, no dude en ponerse en contacto con nosotros. Estamos aquí para ayudarle.
         </p>
+      </div>
     </section>
   )
 }

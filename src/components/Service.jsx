@@ -3,7 +3,7 @@ import { faSuitcase, faCarBurst, faFileLines, faScaleBalanced, faChildReaching  
 
 const Service = () => {
   return (
-    <section className="w-full h-full font-montserrat bg-appwhite container mx-auto px-4 py-5" id='service'>
+    <section className="w-[90%] h-full font-montserrat bg-appwhite container mx-auto px-4 py-5" id='service'>
         <h2 className="text-4xl my-16">Nuestras áreas de práctica</h2>
         <div className="grid grid-cols-4 gap-8 grid-flow-row text-center">
             <div className="h-52 w-52 shadow-2xl rounded-lg flex flex-col justify-center transform hover:scale-125">
