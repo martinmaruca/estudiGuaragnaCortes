@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight, faCarBurst, faPersonDigging } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
 
 const InfoSection = () => {
   return (
@@ -12,9 +13,9 @@ const InfoSection = () => {
               <FontAwesomeIcon icon={faCarBurst} className='text-apporange text-7xl mb-5'/>
               <p className='w-[70%]'>Aqui puedes encontrar todo lo que necesitas en caso de sufrir un accidente de tránsito.</p>
               <div className='w-[70%] flex justify-end'>
-                <a href='/'>
+                <Link to='/transito'>
                 <FontAwesomeIcon icon={faArrowRight} className='w-full flex justify-self-end text-apporange text-4xl mb-5 hover:text-6xl transform animate-bounce transition-all'/>
-                </a>
+                </Link>
               </div>
           </div>
           <div className="w-1/2 flex flex-col items-center justify-between">
@@ -22,9 +23,9 @@ const InfoSection = () => {
               <FontAwesomeIcon icon={faPersonDigging} className='text-apporange text-7xl mb-5'/>
               <p className='w-[70%]'>Aqui puedes encontrar todo lo que necesitas en caso de sufrir un accidente laboral.</p>
               <div className='w-[70%] flex justify-end'>
-                <a href='/' className='w-0'>
+                <Link to='/Laboral' className='w-0'>
                 <FontAwesomeIcon icon={faArrowRight} className='text-apporange text-4xl mb-5 hover:text-6xl transform animate-bounce transition-all'/>
-                </a>
+                </Link>
               </div>
           </div>
         </div>

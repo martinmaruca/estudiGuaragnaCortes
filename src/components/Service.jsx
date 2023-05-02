@@ -9,13 +9,13 @@ const Service = () => {
             <div className="h-52 w-52 shadow-2xl rounded-lg flex flex-col justify-center transform hover:scale-125">
                 <a href="">
                 <FontAwesomeIcon icon={faSuitcase} className='text-apporange text-8xl mb-5'/>
-                <p className='font-semibold px-3'>Accidentes de trabajo  ART</p>
+                <p className='font-semibold px-3'>Accidente laboral  ART</p>
                 </a>
             </div>
             <div className="h-52 w-52 shadow-2xl rounded-lg flex flex-col justify-center transform hover:scale-125">
                 <a href="">
                 <FontAwesomeIcon icon={faCarBurst} className='text-apporange text-8xl mb-5'/>
-                <p className='font-semibold px-3'>Accidentes de tránsito</p>
+                <p className='font-semibold px-3'>Accidente de tránsito</p>
                 </a>
             </div>
             <div className="h-52 w-52 shadow-2xl rounded-lg flex flex-col justify-center transform hover:scale-125">

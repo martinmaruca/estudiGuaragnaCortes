@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { HashLink } from 'react-router-hash-link';
+import { Link } from 'react-router-dom'
 import './navbar.css'
 
 const NavBar = () => {
@@ -20,6 +21,7 @@ const NavBar = () => {
         <div className='w-full flex justify-between items-center lg:hidden '>
           <nav className='menu navbar w-full'>
               <ul className="flex w-full items-end justify-end mr-10 font-roboto font-semibold text-appwhite  ">
+                <li className="mr-4"><Link smooth to="/">incio</Link></li>
                 <li className="mr-4"><HashLink smooth to="#aboutus">Nosotros</HashLink></li>
                 <li className="mr-4"><HashLink smooth to="#service">Servicios</HashLink></li>
                 <li><HashLink smooth to="#contact">Contacto</HashLink></li>
@@ -35,6 +37,7 @@ const NavBar = () => {
             '>
               <nav className='menu navbar '>
                 <ul className="flex flex-col w-full items-end justify-end mr-10 font-roboto font-semibold text-appwhite  ">
+                  <li className='mb-2'><HashLink smooth to="/">incio</HashLink></li>
                   <li className='mb-2'><HashLink smooth to="#aboutus">Nosotros</HashLink></li>
                   <li className='mb-2'><HashLink smooth to="#service">Servicios</HashLink></li>
                   <li><HashLink smooth to="#contact">Contacto</HashLink></li>

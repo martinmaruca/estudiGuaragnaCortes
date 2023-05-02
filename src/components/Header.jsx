@@ -7,7 +7,7 @@ const Header = () => {
                 Especialistas  
             </h1>
             <h2 className="mb-16 text-4xl font-bold uppercase text-appwhite" data-aos="zoom-in-down" data-aos-duration="3000">
-                en accidentes de trabajo y tránsito
+                en accidente Laboral y tránsito
             </h2>
             <a href="https://wa.me/5492317418366?text="
             target="_blank"

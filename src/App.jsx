@@ -3,6 +3,8 @@ import NavBar from "./components/NavBar/NavBar"
 import Header from "./components/Header"
 import AboutUs from "./components/AboutUs"
 import InfoSection from "./components/InfoSection"
+import Laboral from './components/Laboral';
+import Transito from './components/Transito';
 import Service from "./components/Service"
 import ActionCall from "./components/ActionCall"
 import Testimonials from "./components/Testimonials"
@@ -20,12 +22,12 @@ function App() {
 
   return (
     <BrowserRouter>
+        <NavBar />
       <Routes>
         <Route 
         index element={<>
         <Button />
         <ButtonWhatsapp />
-        <NavBar />
         <Header />
         <AboutUs />
         <InfoSection />
@@ -35,6 +37,8 @@ function App() {
         <Contact />
         </>}
         />
+        <Route path="/transito" element={<Transito />} />
+        <Route path="/laboral" element={<Laboral />} />
       </Routes>  
         <Footer />
     </BrowserRouter>
