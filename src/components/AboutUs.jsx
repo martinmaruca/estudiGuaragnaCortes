@@ -1,10 +1,10 @@
 
 const AboutUs = () => {
   return (
-    <section className="w-full h-full bg-appwhite py-5" id="aboutus">
-      <div className="w-[90%] container mx-auto px-4">
-        <h2 className="font-montserrat font-bold text-3xl my-16 pb-16">Estudio Jurídico Guaragna-Cortes y Asoc.</h2>
-        <p className="font-montserrat tracking-wider leading-10 text-2xl first-letter:text-9xl first-letter:font-prata first-letter:text-apporange
+    <section className="w-full h-full bg-appwhite py-5 " id="aboutus">
+      <div className="w-[90%] mx-auto px-4">
+        <h2 className="font-montserrat font-bold text-3xl sm:text-2xl my-16 pb-16">Estudio Jurídico Guaragna-Cortes y Asoc.</h2>
+        <p className="font-montserrat tracking-wider leading-10 text-2xl sm:text-xl first-letter:text-9xl sm:first-letter:text-2 first-letter:font-prata first-letter:text-apporange
           first-letter:mr-3  first-letter:float-left mb-16">
             Bienvenido al Estudio Jurídico Guaragna-Cortes y Asoc. Si usted está aquí, probablemente necesita ayuda y está buscando la mejor ayuda legal, si se trata de información, recursos, orientación, asesoramiento jurídico, o representación legal, tenemos lo que usted necesita.<br/><br/>
             Somos un equipo de abogados altamente capacitados y con amplia experiencia en diversas áreas del derecho civil,nuestro objetivo es brindar a nuestros clientes soluciones eficaces y adaptadas a sus necesidades específicas.<br/><br/>

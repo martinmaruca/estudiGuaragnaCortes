@@ -5,12 +5,12 @@ import { faChevronCircleRight, faChevronCircleLeft } from '@fortawesome/free-sol
 const Testimonials = () => {
   return (
     <div>
-      <h1 className='font-montserrat font-semibold text-center text-4xl my-16'>Que opinan de nosotros?</h1>
+      <h1 className='font-montserrat font-semibold text-center text-4xl sm:text-2xl my-16'>Que opinan de nosotros?</h1>
       <Carousel
       className='mt-16'
       maw={1000}
       mx="auto"
-      height={500}
+      height="auto"
       nextControlIcon={<FontAwesomeIcon icon={faChevronCircleRight} className='text-apporange text-4xl'/>}
       previousControlIcon={<FontAwesomeIcon icon={faChevronCircleLeft} className='text-apporange text-4xl'/>}
       styles={{

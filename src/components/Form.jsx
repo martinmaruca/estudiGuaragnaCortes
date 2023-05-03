@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 
 export default function ContactForm() {
@@ -118,37 +118,37 @@ export default function ContactForm() {
         onSubmit={onSubmit}
       >
         <div>
-            <Form className="w-full h-full mt-16 flex flex-col ">
+            <Form className="w-full h-full mt-16 flex flex-col sm:justify-center">
                 <input type="hidden" name="form-name" value="consulta" />
                 <div className="form-body">
-                <div className="w-full">
-                    <Field className="w-1/2 border-2 border-apporange rounded-md mb-2 p-1" type="name" id="nombre" name='nombre' placeholder="Nombre"/>
+                <div>
+                    <Field className="w-[80%] border-2 border-apporange rounded-md mb-2 p-1" type="name" id="nombre" name='nombre' placeholder="Nombre"/>
                 </div>
                     <ErrorMessage name="nombre"/>
-                <div className="w-full">
-                    <Field className="w-1/2 border-2 border-apporange rounded-md mb-2 p-1" type="email" id="email" name='email' placeholder="Email"/>
+                <div>
+                    <Field className="w-[80%] border-2 border-apporange rounded-md mb-2 p-1" type="email" id="email" name='email' placeholder="Email"/>
                 </div>
                     <ErrorMessage name="email" />
-                <div className="w-full">
-                    <Field className="w-1/2 border-2 border-apporange rounded-md mb-2 p-1" type="phone" id="telefono" name='telefono' placeholder="Teléfono"/>
+                <div>
+                    <Field className="w-[80%] border-2 border-apporange rounded-md mb-2 p-1" type="phone" id="telefono" name='telefono' placeholder="Teléfono"/>
                 </div>
                     <ErrorMessage name="telefono" />
-                <div className="w-full">
-                    <Field className="w-1/2 border-2 border-apporange rounded-md mb-2 p-1" type="text" id="direccion" name='direccion' placeholder="Dirección"/>
+                <div>
+                    <Field className="w-[80%] border-2 border-apporange rounded-md mb-2 p-1" type="text" id="direccion" name='direccion' placeholder="Dirección"/>
                 </div>
                     <ErrorMessage name="direccion" />
-                <div className="w-full">
-                    <Field className="w-1/2 border-2 border-apporange rounded-md mb-2 p-1" type="text" id="asunto" name='asunto' placeholder="Asunto"/>
+                <div>
+                    <Field className="w-[80%] border-2 border-apporange rounded-md mb-2 p-1" type="text" id="asunto" name='asunto' placeholder="Asunto"/>
                 </div>
                     <ErrorMessage name="asunto" />
-                <div className="w-full">
-                    <Field className="w-1/2 h-40 border-2 border-apporange rounded-md mb-2 p-1" name="mensaje" id="mensaje" placeholder="Mensaje"></Field>
+                <div>
+                    <Field className="w-[80%] h-40 border-2 border-apporange rounded-md mb-2 p-1" name="mensaje" id="mensaje" placeholder="Mensaje"></Field>
                     <ErrorMessage name="mensaje" />
                 </div>
                 <div data-netlify-recaptcha="true"></div>
-                <button type='submit' className="w-1/2 bg-apporange px-16 py-3 rounded-md font-semibold mb-5 hover:bg-appwhite border-2 border-solid border-apporange hover:border-apporange">Enviar</button>
+                <button type='submit' className="w-[80%] bg-apporange px-16 py-3 rounded-md font-semibold mb-5 hover:bg-appwhite border-2 border-solid border-apporange hover:border-apporange">Enviar</button>
                 {formularioEnviado && (
-                <p className="exito">Formulario enviado con exito!</p>
+                <p className="exito text-green-600">Formulario enviado con exito!</p>
               )}
               </div>
             </Form>

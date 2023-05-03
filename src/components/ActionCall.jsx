@@ -1,10 +1,10 @@
 
 const ActionCall = () => {
   return (
-    <section className="font-montserrat flex w-full h-screen flex-col items-center justify-center bg-appblack">
-        <p className="mb-16 text-3xl font-bold uppercase text-appwhite" data-aos="fade-right" data-aos-duration="3000">NO ESPERES MÁS</p>
-        <h2 className="mb-16 text-6xl font-bold uppercase text-appwhite" data-aos="fade-left" data-aos-duration="3000">ENVIANOS UN MENSAJE</h2>
-        <p className="mb-16 text-3xl font-bold uppercase text-appwhite" data-aos="flip-up" data-aos-duration="3000">¿PREGUNTAS? HÁGANOSLO SABER.</p>
+    <section className="overflow-hidden font-montserrat flex w-full h-screen flex-col items-center justify-center bg-appblack">
+        <p className="mb-16 text-3xl sm:text-xl font-bold uppercase text-appwhite" data-aos="fade-right" data-aos-duration="3000">NO ESPERES MÁS</p>
+        <h2 className="mb-16 text-6xl sm:text-2xl font-bold uppercase text-appwhite" data-aos="fade-left" data-aos-duration="3000">ENVIANOS UN MENSAJE</h2>
+        <p className="mb-16 text-3xl sm:text-lg font-bold uppercase text-appwhite" data-aos="flip-up" data-aos-duration="3000">¿PREGUNTAS? HÁGANOSLO SABER.</p>
         <a href="https://wa.me/5492317418366?text="
         target="_blank"
         data-aos="flip-down"

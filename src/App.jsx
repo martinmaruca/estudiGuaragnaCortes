@@ -22,12 +22,12 @@ function App() {
 
   return (
     <BrowserRouter>
-        <NavBar />
+        <Button />
+        <ButtonWhatsapp />
       <Routes>
         <Route 
         index element={<>
-        <Button />
-        <ButtonWhatsapp />
+        <NavBar />
         <Header />
         <AboutUs />
         <InfoSection />
@@ -35,12 +35,12 @@ function App() {
         <ActionCall />
         <Testimonials />
         <Contact />
+        <Footer />
         </>}
         />
         <Route path="/transito" element={<Transito />} />
         <Route path="/laboral" element={<Laboral />} />
       </Routes>  
-        <Footer />
     </BrowserRouter>
   )
 }
