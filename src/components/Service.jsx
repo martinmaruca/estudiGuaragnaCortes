@@ -11,7 +11,7 @@ const Data = [
         li3: "Acuerdos en el ministerio de trabajo",
         li4: "Regularización de la situación laboral", 
         icon: faSuitcase,
-        iconLabel:"Laboral"
+        iconLabel:"Derecho laboral"
     },
     {
         id: 2,
@@ -22,7 +22,7 @@ const Data = [
         li3: "Regimen de visitas",
         li4: "Alimentos",
         icon: faChildReaching,
-        iconLabel:"Familia y sucesiones"
+        iconLabel:"Derecho Familia y sucesiones"
     },
     {
         id: 3,
@@ -33,7 +33,7 @@ const Data = [
         li3: "Daños y perjuicios",
         li4: "Redacción de contratos",
         icon: faScaleBalanced,
-        iconLabel:"Civil y Comercial" 
+        iconLabel:"Derecho Civil y Comercial" 
     },
 ]
 
@@ -47,9 +47,9 @@ const Service = () => {
     }
 
   return (
-    <section className=" w-full h-full font-montserrat sm:flex sm:justify-center bg-appwhite  mx-auto px-4 py-16" id='service'>
+    <section className=" w-full h-full mb-16 sm:mb-0 font-montserrat sm:flex sm:justify-center bg-appwhite  mx-auto px-4 py-16" id='service'>
         <div className='w-[90%]'>
-            <h2 className="text-4xl sm:text-2xl my-16">Nuestras áreas de práctica</h2>
+            <h2 className="text-4xl ml-16 sm:text-2xl my-16">Nuestras áreas de práctica</h2>
             <div className=" flex justify-evenly flex-wrap text-center">            
                     {Data.map((item) => {
                     const { id, icon, iconLabel } = item;

@@ -3,11 +3,14 @@ const Header = () => {
   return (
     <section>
         <div className="flex w-full h-screen flex-col items-center justify-center bg-appblack">
+            <h2 className="mb-16 text-5xl sm:text-2xl  font-bold uppercase text-appwhite" data-aos="zoom-in-down" data-aos-duration="3000">
+                Abogados
+            </h2>
             <h1 className="mb-16 text-8xl sm:text-6xl font-bebas font-bold uppercase text-appwhite" data-aos="zoom-in" data-aos-duration="3000">
                 Especialistas  
             </h1>
-            <h2 className="mb-16 text-4xl sm:text-xl  font-bold uppercase text-appwhite" data-aos="zoom-in-down" data-aos-duration="3000">
-                en accidente Laboral y tránsito
+            <h2 className="mb-16 text-4xl sm:text-sm  font-bold uppercase text-appwhite" data-aos="fade-right" data-aos-duration="3000">
+                en accidentes de tránsito y de trabajo 
             </h2>
             <a href="https://wa.me/5492317418366?text="
             target="_blank"

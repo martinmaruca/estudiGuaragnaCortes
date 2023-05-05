@@ -15,6 +15,7 @@ import ButtonWhatsapp from "./components/ButtonWhatsapp/ButtonWhatsapp"
 import { Route } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import ScrollToTop from './components/ScrollToTop'
 AOS.init();
 
 
@@ -22,6 +23,7 @@ function App() {
 
   return (
     <BrowserRouter>
+    <ScrollToTop />
         <Button />
         <ButtonWhatsapp />
       <Routes>
